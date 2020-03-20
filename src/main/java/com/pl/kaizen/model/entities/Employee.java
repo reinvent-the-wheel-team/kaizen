@@ -1,6 +1,7 @@
 package com.pl.kaizen.model.entities;
 
 import com.pl.kaizen.model.enums.Gender;
+import com.pl.kaizen.model.enums.Role;
 import lombok.*;
 
 import javax.persistence.Column;
@@ -39,8 +40,11 @@ public class Employee extends EntityBase {
     @Column(name = "tel_no")
     private String telephoneNumber;
 
+    @Column(name = "department_id")
+    private Long departmentId;
+
     @Column(nullable = false)
-    private String role;
+    private Role role;
 
     @Column
     private Boolean isActive;
