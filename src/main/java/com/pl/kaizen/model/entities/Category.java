@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @EqualsAndHashCode(of = "id") @ToString (exclude = {"password"})
 @Builder
 @Entity
-@Table(name="task_categorys")
+@Table(name="task_categories")
 public class Category extends EntityBase {
 
     @Column (name = "cat_name")
