@@ -3,5 +3,5 @@ package com.pl.kaizen.dto;
 import lombok.Data;
 
 @Data
-public class LoggedUserDTO {
+public class RegisterEmployeeDTO {
 }
