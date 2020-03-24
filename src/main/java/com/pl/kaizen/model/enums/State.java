@@ -1,6 +1,6 @@
 package com.pl.kaizen.model.enums;
 
-public enum State {
+public enum  State {
     IDEA,
     TODO,
     DOING,
